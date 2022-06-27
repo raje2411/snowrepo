@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_835264_raj_hello.raj_hello_manager" name="x_835264_raj_hello.raj_hello_manager">cc858b1a2f101110c859c886f699b619</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-27 16:19:09</sys_created_on>
+        <sys_id>8c858b1a2f101110c859c886f699b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cc858b1a2f101110c859c886f699b619</sys_name>
+        <sys_package display_value="raj_hello_app" source="x_835264_raj_hello">f555c31a2f101110c859c886f699b609</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="raj_hello_app">f555c31a2f101110c859c886f699b609</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8c858b1a2f101110c859c886f699b61a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-27 16:19:09</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

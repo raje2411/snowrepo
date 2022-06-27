@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="data_tbl" max_length="40" name="x_835264_raj_hello_data_tbl" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="encode_utf8=false" label="Department" mandatory="true" max_length="32" name="department" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
